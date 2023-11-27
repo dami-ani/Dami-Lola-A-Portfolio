@@ -1,0 +1,165 @@
+:root {
+  --1st-text-color: #000000;
+  --2nd-text-color: #6c6f7f;
+  --3rd-text-color: #ffffff;
+}
+
+:root {
+  --1st-background-color: #f4ffc2;
+  --2nd-background-color: #e8efbf;
+  --3rd-background-color: #000000;
+  --4th-background-color: #6c6f7f;
+}
+
+/* body */
+body {
+  background-color: var(--1st-background-color);
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+}
+
+/* text styles */
+a {
+  font-family: 'Hanken Grotesk','sans-serif';
+  color: var(--1st-text-color);
+  text-decoration: none;
+  margin-inline: 30px
+}
+
+p {
+  font-family: 'Hanken Grotesk','sans-serif';
+  color: var(--1st-text-color);
+  font-weight: 300;
+  font-size: 30px
+}
+
+h1 {
+  font-family: 'Hanken Grotesk','sans-serif';
+  color: var(--1st-text-color);
+  font-weight: 900;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Hanken Grotesk','sans-serif';
+  color: var(--1st-text-color);
+  font-weight: 500;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Hanken Grotesk','sans-serif';
+  color: var(--1st-text-color);
+  font-weight: 350;
+  font-size: 35px;
+}
+
+h4 {
+  font-family: 'Hanken Grotesk','sans-serif';
+  color: var(--2nd-text-color);
+  font-weight: 900;
+  font-size: 15px;
+}
+
+nav {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+span {
+  color: var(--2nd-text-color);
+}
+
+a:hover {
+  color: var(--2nd-text-color);
+  transition: 0s;
+}
+
+/* !banner! */
+.section.banner {
+  position: relative;
+}
+
+.container.banner {
+  background-color: #e8efbf;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+/* contact button */
+.contact {
+  background-color: #191919;
+  padding: 10px 25px;
+  border-radius: 0.5rem;
+  color: var(--3rd-text-color);
+}
+
+.heading {
+  font-size: 150px;
+  padding-top: 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: left;
+}
+@media screen and (max-width: 991px) {
+  .heading {
+    font-size: 100px; 
+  }
+}
+
+.divider-line.inset {
+  right: 5px; 
+  bottom: 0;
+  height: 4px;
+  background-color: #000000;
+  margin-right: 96px;
+  margin-left: 96px;
+}
+
+@media screen and (max-width: 991px) {
+  .divider-line.inset {
+    margin-right: 64px;
+    margin-left: 64px;
+  }
+}
+
+
+
+
+
+
+/* footer */
+.copyright {
+  position: fixed;
+  bottom: 0px;
+  right: 8%;
+  letter-spacing: 1px;
+}
+
+.hero-banner {
+  position: relative;
+  padding-top: 30px;
+  text-align: left;
+  left: 70px;
+  width: 50%;
+}
+
+.about {
+  display: flex;
+  flex-basis: 50%;
+  padding-top: 30px;
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 50%;
+}
+
