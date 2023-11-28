@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -14,27 +15,56 @@
 </head>
 
 <body>
+  <div class="section banner">
+    <div class="container banner">
+      <a href="mailto:dami.anibaba@hotmail.com?subject=👋">
+        Lets discuss your project<span></span> ·</span>
+        <span>Email me</span>
+      </a>
+    </div>
+    <header>
+      <nav>
+        <h1 class="logo">
+          <img src="./assets/images/icon-logo (60 x 60 px).svg" alt="Logo">
+        </h1>
+        <div class="nav-content">
+          <ul>
+            <a href="https://dami-ani.github.io/Dami-Lola-A-Portfolio/">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a class="contact" href="./contact.html">Contact</a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <h1 class="heading">Contact Me</h1>
+      <br>
+    </div>
+    <div class="divider-line"></div>
+    <div class="container">
+      <form action="https://formspree.io/f/mleyybrk" method="POST">
+        <label>First Name:
+          <input type="text" />
+        </label>
+        <label>Last Name:
+          <input type="text" />
+        </label>
+        <label>Email:
+          <input type="email" name="email">
+        </label>
+        <label>Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <br>
+    <!-- footer -->
+    <footer>
+      <h4 class="copyright"> © 2023 ∞ Dami Anibaba</h4>
+    </footer>
 
-  <!-- !contact form! -->
-  <h1>Contact Me</h1>
-  <div class="container">
-    <form action="https://formspree.io/f/mleyybrk" method="POST">
-      <label>First Name:
-        <input type="text" />
-      </label>
-      <label>Last Name:
-        <input type="text" />
-      </label>
-      <label> Email:
-        <input type="email" name="email">
-      </label>
-      <label>
-        Your message:
-        <textarea name="message"></textarea>
-      </label>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
+  </body>
 
-</body>
 </html>

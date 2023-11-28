@@ -35,10 +35,7 @@ p {
   margin: 0; 
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   font-family: 'Hanken Grotesk', 'sans-serif';
   color: var(--1st-text-color);
   margin: 0;
@@ -64,7 +61,6 @@ h4 {
   font-weight: 900;
   font-size: 15px;
 }
-
 
 span {
   color: var(--2nd-text-color);
@@ -93,7 +89,6 @@ a:hover {
 .nav-content {
   font-size: 40px;
 }
-
 
 .heading {
   font-size: 250px;
@@ -125,8 +120,6 @@ a:hover {
   }
 }
 
-
-
 /* footer */
 .copyright {
   position: fixed;
@@ -143,16 +136,11 @@ a:hover {
   width: 50%;
 }
 
-
-
 .about {
-  display: flex;
+  display: grid; 
+  grid-template-columns: 40% 60%;
   align-items: center;
-  justify-content: space-between;
   padding: 5%;
-  width: 70%;
-  flex-grow: 1;
-  flex-basis: 0;
 }
 
 .about-img {
@@ -162,8 +150,7 @@ a:hover {
 }
 
 .about-content {
-  flex-grow: 1;
-  max-width: 60%;
+  max-width: 80%; 
 }
 
 header {
@@ -181,13 +168,7 @@ nav {
   padding-right: 4%;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
 .logo img {
-  position: fixed;
   width: auto;
   height: 200px;
   margin-right: 10px;
@@ -206,7 +187,7 @@ ul a {
 }
 
 ul a:hover {
-  text-decoration:solid;
+  text-decoration: solid;
 }
 
 .contact {
@@ -219,7 +200,7 @@ ul a:hover {
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Hanken Grotesk', 'sans-serif'; /
 }
 
 .grid-container {
@@ -238,4 +219,3 @@ img {
   height: auto;
   display: block;
 }
-
