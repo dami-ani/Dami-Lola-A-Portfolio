@@ -31,7 +31,7 @@ p {
   font-family: 'Hanken Grotesk', 'sans-serif';
   color: var(--1st-text-color);
   font-weight: 300;
-  font-size: 30px;
+  font-size: 60px;
   margin: 0; 
 }
 
@@ -50,8 +50,9 @@ h1 {
 }
 
 h2 {
-  font-weight: 500;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 130px;
+  letter-spacing: -13px;
 }
 
 h3 {
@@ -86,9 +87,12 @@ a:hover {
   padding-bottom: 10px;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 30px;
 }
 
+.nav-content {
+  font-size: 40px;
+}
 
 
 .heading {
@@ -108,10 +112,10 @@ a:hover {
 }
 
 .divider-line {
-  height: 4px;
+  height: 6px;
   background-color: #000000;
-  margin-right: 22px;
-  margin-left: 61px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 @media screen and (max-width: 991px) {
@@ -139,13 +143,27 @@ a:hover {
   width: 50%;
 }
 
+
+
 .about {
   display: flex;
-  flex-basis: 50%;
-  padding-top: 30px;
-  padding-left: 4%;
-  padding-right: 4%;
-  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+  width: 70%;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.about-img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.about-content {
+  flex-grow: 1;
+  max-width: 60%;
 }
 
 header {
@@ -169,8 +187,9 @@ nav {
 }
 
 .logo img {
-  width: 65px;
-  height: auto;
+  position: fixed;
+  width: auto;
+  height: 200px;
   margin-right: 10px;
 }
 
@@ -197,3 +216,26 @@ ul a:hover {
   color: var(--3rd-text-color);
   margin-left: 15px;
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  overflow: hidden; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
