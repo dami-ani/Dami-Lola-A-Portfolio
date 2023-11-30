@@ -12,15 +12,34 @@ h3 {
   text-align: center;
 }
 
-.container {
-  width: 80%;
-  max-width: 600px;
-  margin: 20px auto;
+.container.banner {
+  background-color: #e8efbf;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.box-form {
+  position:relative;
+  margin: 30px 0px;
+  left: 5%;
+  height: 600px;
+  width: 1100px;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.email-text { 
+  width: 100%;
+  height: 35px;
+}
+
+
 
 label {
   font-weight: bold;
