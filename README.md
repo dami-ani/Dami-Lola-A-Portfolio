@@ -10,7 +10,7 @@ https://dami-ani.github.io/Dami-Lola-A-Portfolio/
 
 ## MIT License
 
-Copyright (c) 2023 Dami
+Copyright (c) 2023 Dami Anibaba
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
