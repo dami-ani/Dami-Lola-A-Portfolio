@@ -126,6 +126,7 @@ a:hover {
   bottom: 0;
   right: 8%;
   letter-spacing: 1px;
+  font-size: 30px;
 }
 
 .hero-banner {
@@ -190,6 +191,15 @@ ul a:hover {
   text-decoration: solid;
 }
 
+.wrk-title {
+    display: grid; 
+    align-items: center;
+    padding: 5%;
+    font-weight: 600;
+  font-size: 130px;
+  letter-spacing: -19px;
+}
+
 .contact {
   background-color: #191919;
   padding: 10px 25px;
@@ -200,18 +210,15 @@ ul a:hover {
 
 body {
   margin: 0;
-  font-family: 'Hanken Grotesk', 'sans-serif'; /
+  font-family: 'Hanken Grotesk', 'sans-serif';
 }
 
-.grid {
+.grid-container {
+  display: flex;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  padding: 20px;
-}
-
-.grid-item {
-  overflow: hidden; 
+  gap: 40px;
+  grid-template-areas: "a b" "c d";
+  margin: 300px;
 }
 
 img {
@@ -219,3 +226,4 @@ img {
   height: auto;
   display: block;
 }
+
