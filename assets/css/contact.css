@@ -12,6 +12,10 @@ h3 {
   text-align: center;
 }
 
+.section.banner {
+  position: relative;
+}
+
 .container.banner {
   display: flex;
   padding-top: 10px;
@@ -38,6 +42,16 @@ h3 {
   height: 35px;
 }
 
+/* footer */
+.copyright {
+  position: fixed;
+  bottom: 0;
+  right: 8%;
+  letter-spacing: 1px;
+  font-size: 35px;
+  color:#6c6f7f;
+  opacity: 80%;
+}
 
 
 label {

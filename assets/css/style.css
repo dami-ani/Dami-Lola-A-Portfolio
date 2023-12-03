@@ -48,18 +48,22 @@ h1 {
 
 h2 {
   font-weight: 600;
-  font-size: 130px;
+  font-size: 190px;
   letter-spacing: -13px;
 }
 
 h3 {
-  font-weight: 350;
-  font-size: 35px;
+  display: grid; 
+  align-items: center;
+  padding: 5%;
+  font-weight: 600;
+  font-size: 250px;
+  letter-spacing: -19px;
 }
 
 h4 {
   font-weight: 900;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 span {
@@ -117,15 +121,6 @@ a:hover {
     margin-right: 64px;
     margin-left: 64px;
   }
-}
-
-/* footer */
-.copyright {
-  position: fixed;
-  bottom: 0;
-  right: 8%;
-  letter-spacing: 1px;
-  font-size: 30px;
 }
 
 .hero-banner {
@@ -190,15 +185,6 @@ ul a:hover {
   text-decoration: solid;
 }
 
-.wrk-title {
-    display: grid; 
-    align-items: center;
-    padding: 5%;
-    font-weight: 600;
-  font-size: 130px;
-  letter-spacing: -19px;
-}
-
 .contact {
   background-color: #191919;
   padding: 10px 25px;
@@ -217,7 +203,7 @@ body {
   display: grid;
   gap: 40px;
   grid-template-areas: "a b" "c d";
-  margin: 300px;
+  margin: 10px 170px;
 }
 
 img {
